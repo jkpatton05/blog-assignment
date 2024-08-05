@@ -59,4 +59,5 @@ function readMode() {
 // TODO: Create functions to read and write from local storage
 
 function writeToLocalStorage(key, value) {
-    localStorage
+    localStorage.setItem(key, value);
+}
