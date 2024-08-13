@@ -9,6 +9,12 @@
   box-sizing: border-box;
 }
 
+.right-image {
+  float: right;
+  margin-left: 20px;
+  width: 300px;
+}
+
 html {
   height: 100%;
 }
@@ -72,7 +78,7 @@ ul {
   Tags
 */
 header {
-  justify-content: center;
+  text-align: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -86,7 +92,7 @@ footer {
 main {
   height: calc(100vh - 6rem);
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: stretch;
   border-top: double 1rem;
 }
