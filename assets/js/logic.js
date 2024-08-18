@@ -14,7 +14,7 @@ if (savedMode) {
 }
 
 // Add event listener to the toggle button
-toggleButton.addEventListener('click', () => {
+toggleButton.addEventListener('click', function () {
     // Toggle the mode between light and dark
     const mode = toggleMode();
 

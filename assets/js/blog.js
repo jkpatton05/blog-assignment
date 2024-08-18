@@ -19,5 +19,5 @@ function getPosts() {
     return JSON.parse(localStorage.getItem('posts'));
 }
 
-// TODO: Call the function to render the list of blog posts
+// TODO: Call the function to render the list of blog posts 
 const posts = getPosts();
